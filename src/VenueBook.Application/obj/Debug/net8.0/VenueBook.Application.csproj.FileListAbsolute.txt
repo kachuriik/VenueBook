@@ -1,0 +1,15 @@
+/Users/macbook/VenueBook/src/VenueBook.Application/bin/Debug/net8.0/VenueBook.Application.deps.json
+/Users/macbook/VenueBook/src/VenueBook.Application/bin/Debug/net8.0/VenueBook.Application.dll
+/Users/macbook/VenueBook/src/VenueBook.Application/bin/Debug/net8.0/VenueBook.Application.pdb
+/Users/macbook/VenueBook/src/VenueBook.Application/bin/Debug/net8.0/VenueBook.Domain.dll
+/Users/macbook/VenueBook/src/VenueBook.Application/bin/Debug/net8.0/VenueBook.Domain.pdb
+/Users/macbook/VenueBook/src/VenueBook.Application/obj/Debug/net8.0/VenueBook.Application.csproj.AssemblyReference.cache
+/Users/macbook/VenueBook/src/VenueBook.Application/obj/Debug/net8.0/VenueBook.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/VenueBook/src/VenueBook.Application/obj/Debug/net8.0/VenueBook.Application.AssemblyInfoInputs.cache
+/Users/macbook/VenueBook/src/VenueBook.Application/obj/Debug/net8.0/VenueBook.Application.AssemblyInfo.cs
+/Users/macbook/VenueBook/src/VenueBook.Application/obj/Debug/net8.0/VenueBook.Application.csproj.CoreCompileInputs.cache
+/Users/macbook/VenueBook/src/VenueBook.Application/obj/Debug/net8.0/VenueBoo.729B3312.Up2Date
+/Users/macbook/VenueBook/src/VenueBook.Application/obj/Debug/net8.0/VenueBook.Application.dll
+/Users/macbook/VenueBook/src/VenueBook.Application/obj/Debug/net8.0/refint/VenueBook.Application.dll
+/Users/macbook/VenueBook/src/VenueBook.Application/obj/Debug/net8.0/VenueBook.Application.pdb
+/Users/macbook/VenueBook/src/VenueBook.Application/obj/Debug/net8.0/ref/VenueBook.Application.dll

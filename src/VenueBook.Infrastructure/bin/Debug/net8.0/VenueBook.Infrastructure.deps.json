@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "VenueBook.Infrastructure/1.0.0": {
+        "dependencies": {
+          "VenueBook.Application": "1.0.0",
+          "VenueBook.Domain": "1.0.0"
+        },
+        "runtime": {
+          "VenueBook.Infrastructure.dll": {}
+        }
+      },
+      "VenueBook.Application/1.0.0": {
+        "dependencies": {
+          "VenueBook.Domain": "1.0.0"
+        },
+        "runtime": {
+          "VenueBook.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "VenueBook.Domain/1.0.0": {
+        "runtime": {
+          "VenueBook.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VenueBook.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VenueBook.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VenueBook.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

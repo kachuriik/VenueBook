@@ -26,7 +26,9 @@ public class BookingsController : ControllerBase
         _serviceRepository = serviceRepository;
         _pricingCalculator = pricingCalculator;
     }
-
+    /// <summary>
+    /// Створення нового бронювання конференц-залу з розрахунком вартості.
+    /// </summary>
     [HttpPost]
     public async Task<IActionResult> CreateBooking([FromBody] CreateBookingRequestDto request)
     {
@@ -93,7 +95,10 @@ public class BookingsController : ControllerBase
 
         return CreatedAtAction(nameof(GetBooking), new { id = booking.Id }, response);
     }
-
+    /// <summary>
+    /// Отримання деталей бронювання за його унікальним ідентифікатором.
+    /// </summary>
+    /// <param name="id">Ідентифікатор бронювання</param>
     [HttpGet("{id}")]
     public async Task<IActionResult> GetBooking(Guid id)
     {

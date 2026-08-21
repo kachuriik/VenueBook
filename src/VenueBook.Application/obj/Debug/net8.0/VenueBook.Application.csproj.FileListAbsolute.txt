@@ -14,3 +14,5 @@
 /Users/macbook/VenueBook/src/VenueBook.Application/obj/Debug/net8.0/VenueBook.Application.pdb
 /Users/macbook/VenueBook/src/VenueBook.Application/obj/Debug/net8.0/ref/VenueBook.Application.dll
 /Users/macbook/VenueBook/src/VenueBook.Application/obj/Debug/net8.0/VenueBook.Application.sourcelink.json
+/Users/macbook/VenueBook/src/VenueBook.Application/bin/Debug/net8.0/VenueBook.Application.xml
+/Users/macbook/VenueBook/src/VenueBook.Application/obj/Debug/net8.0/VenueBook.Application.xml

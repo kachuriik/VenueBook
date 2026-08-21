@@ -17,6 +17,9 @@ public class RoomsController : ControllerBase
     }
 
     // 1. Отримання всіх залів
+    /// <summary>
+    /// Отримання повного списку конференц-залів.
+    /// </summary>
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
@@ -25,7 +28,15 @@ public class RoomsController : ControllerBase
         return Ok(response);
     }
 
+    
+    
     // 2. Пошук доступних залів
+    /// <summary>
+    /// Пошук доступних залів на заданий проміжок часу та мінімальну місткість.
+    /// </summary>
+    /// <param name="startTime">Час початку (UTC)</param>
+    /// <param name="endTime">Час завершення (UTC)</param>
+    /// <param name="capacity">Мінімальна місткість осіб</param>
     [HttpGet("available")]
     public async Task<IActionResult> GetAvailable(
         [FromQuery] DateTime startTime, 
@@ -38,6 +49,9 @@ public class RoomsController : ControllerBase
     }
 
     // 3. Додавання конференц-залу
+    /// <summary>
+    /// Додавання нового конференц-залу в систему.
+    /// </summary>
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] CreateRoomRequestDto request)
     {
@@ -59,6 +73,10 @@ public class RoomsController : ControllerBase
     }
 
     // 4. Редагування інформації про зал
+    /// <summary>
+    /// Оновлення параметрів існуючого конференц-залу.
+    /// </summary>
+    /// <param name="id">Ідентифікатор залу</param>
     [HttpPut("{id}")]
     public async Task<IActionResult> Update(Guid id, [FromBody] UpdateRoomRequestDto request)
     {
@@ -81,6 +99,10 @@ public class RoomsController : ControllerBase
     }
 
     // 5. Видалення конференц-залу
+    /// <summary>
+    /// Видалення конференц-залу за ідентифікатором.
+    /// </summary>
+    /// <param name="id">Ідентифікатор залу</param>
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(Guid id)
     {

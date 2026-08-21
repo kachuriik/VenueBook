@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G+04L1JTrv4=",
+  "dgSpecHash": "j9WuQH1wosw=",
   "success": true,
   "projectFilePath": "/Users/macbook/VenueBook/src/VenueBook.Domain/VenueBook.Domain.csproj",
-  "expectedPackageFiles": [
-    "/Users/macbook/.nuget/packages/microsoft.netcore.app.ref/8.0.25/microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
-    "/Users/macbook/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.25/microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -9,3 +9,4 @@
 /Users/macbook/VenueBook/src/VenueBook.Domain/obj/Debug/net8.0/refint/VenueBook.Domain.dll
 /Users/macbook/VenueBook/src/VenueBook.Domain/obj/Debug/net8.0/VenueBook.Domain.pdb
 /Users/macbook/VenueBook/src/VenueBook.Domain/obj/Debug/net8.0/ref/VenueBook.Domain.dll
+/Users/macbook/VenueBook/src/VenueBook.Domain/obj/Debug/net8.0/VenueBook.Domain.sourcelink.json
